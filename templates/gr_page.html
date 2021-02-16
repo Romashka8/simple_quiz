@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>Добро пожаловать!</title>
+{% endblock %}
+
+{% block body %}
+<div class="my_main_cl">
+<p><h1>Готов испытать свои знания?</h1><br>
+<a class="btn btn-outline-success" href="{{ url_for('quiz_page') }}" role="button">Да!</a>
+</p>
+</div>
+{% endblock %}

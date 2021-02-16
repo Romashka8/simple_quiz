@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>Вопрос № {{ question_number }}</title>
+{% endblock %}
+
+{% block body %}
+<div class="my_main_cl">
+    <form method="post" action="update">
+        <h3>{{ question }}</h3>
+        {% for i in answers %}
+        <p><input type="radio" name="name" value="{{ i }}">{{ i }}</p>
+        {% endfor %}
+        <p><input class="btn btn-outline-success" type="submit" value="Ответить"></p>
+    </form>
+</div>
+{% endblock %}

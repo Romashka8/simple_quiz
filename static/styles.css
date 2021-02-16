@@ -1,0 +1,14 @@
+body {
+    text-align: center;	
+}
+
+.my_main_cl{
+	background-color: white;
+	margin-top: 10%;
+	margin-right: 20%;
+	margin-left: 20%;
+	border-radius: 20%;
+	border-style: solid;
+	border-color: lightgreen;
+	padding: 5%;
+}
